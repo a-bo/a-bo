@@ -2,7 +2,7 @@
 
 
 
-Hi, I'm N!no 😉, a programmer 👨🏻‍💻 from China 🇨🇳. I'm an open-source profession and always develop in Python 🐍. Currently, I'm working on golang and kubernetes . Beside's programming, I like delicious food 🥗🥩🌮🍣 and doing sports 🏃⛹️‍♂️🏋🏼‍♂️.
+Hi, I'm a.bo 😉, a programmer 👨🏻‍💻 from China 🇨🇳. I'm an open-source profession and always develop in Python 🐍. Currently, I'm working on golang and kubernetes . Beside's programming, I like delicious food 🥗🥩🌮🍣 and doing sports 🏃⛹️‍♂️🏋🏼‍♂️.
 
   <img align="right" alt="GIF" src="https://media.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif" />
 
@@ -11,7 +11,6 @@ Hi, I'm N!no 😉, a programmer 👨🏻‍💻 from China 🇨🇳. I'm an open
 - 👨🏻‍💻 I’m currently working on golang and kubernetes.
 - 🌱 I’m currently learning golang and kubernetes.
 - 🤔 My research interests are Devops, Deep Reinforcement Learning, etc.
-- 💼 I’m pursuing a Ph.D. degree or R.A. position.
 - 💬 Ask me about anything, I would like to answer.
 - 📫 Please email via yboo.xyz@qq.com to reach me.
 
