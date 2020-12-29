@@ -14,4 +14,4 @@ Hi, I'm a.bo 😉, a programmer 👨🏻‍💻 from China 🇨🇳. I'm an open
 - 💬 Ask me about anything, I would like to answer.
 - 📫 Please email via yboo.xyz@qq.com to reach me.
 
-![a.bo's github stats](https://github-readme-stats.vercel.app/api?username=a-bo?theme=gruvbox&show_icons=true&hide_border=true)
+[![Abo's github stats](https://github-readme-stats.vercel.app/api?username=a-bo&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
