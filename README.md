@@ -2,7 +2,6 @@
 
 
 
-Hi, I'm a.bo 😉, a programmer 👨🏻‍💻 from China 🇨🇳. I'm an open-source profession and always develop in Python 🐍. Currently, I'm working on golang and kubernetes . Beside's programming, I like delicious food 🥗🥩🌮🍣 and doing sports 🏃⛹️‍♂️🏋🏼‍♂️.
 
   <img align="right" alt="GIF" src="https://media.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif" />
 
