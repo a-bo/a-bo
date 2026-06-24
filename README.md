@@ -1,11 +1,12 @@
 <h1 align="center">Hi, I'm a-bo</h1>
 
 <p align="center">
-  AI 应用实践者，正在整理和构建可落地的 AI 项目创意。
+  AI 应用与具身智能实践者，关注可落地的 AI 项目、开发者工具和机器人智能系统。
 </p>
 
 <p align="center">
   <a href="https://github.com/a-bo/ai-project-ideas">AI Project Ideas</a> ·
+  <a href="https://github.com/a-bo/awesome-embodied-ai-cn">Embodied AI CN</a> ·
   <a href="https://github.com/a-bo?tab=repositories">Projects</a> ·
   <a href="mailto:1499552846@qq.com">Email</a>
 </p>
@@ -14,7 +15,11 @@
 
 ## 我在做什么
 
-我正在维护 [AI Project Ideas](https://github.com/a-bo/ai-project-ideas)：
+我现在主要维护两条开源主线：
+
+### AI Project Ideas
+
+[AI Project Ideas](https://github.com/a-bo/ai-project-ideas)：
 
 > 100+ 可落地的 AI 项目创意、MVP 方案和开源实现指南。
 
@@ -29,6 +34,21 @@
 - 可扩展方向
 - 简历包装方式
 - 开源传播标题
+
+### Awesome Embodied AI CN
+
+[Awesome Embodied AI CN](https://github.com/a-bo/awesome-embodied-ai-cn)：
+
+> 中文具身智能资源库：论文、课程、开源项目、数据集、仿真环境、机器人平台和学习路线。
+
+这个项目关注：
+
+- Vision-Language-Action
+- Robot Learning
+- Imitation Learning
+- Simulation / Sim2Real
+- ROS / ROS2
+- Robot Agent
 
 ## 适合谁
 
@@ -46,6 +66,7 @@
 - AI 项目创意和 MVP 设计
 - 开发者工具
 - AI Agent / MCP / RAG
+- 具身智能 / 机器人学习 / VLA
 - GitHub 开源项目增长
 - Go / Kubernetes / DevOps 工程实践
 
@@ -66,11 +87,27 @@
 - AI Agent
 - Business
 
+### Awesome Embodied AI CN
+
+[github.com/a-bo/awesome-embodied-ai-cn](https://github.com/a-bo/awesome-embodied-ai-cn)
+
+一个面向中文开发者的具身智能资源库，整理论文、开源项目、数据集、课程、仿真环境和学习路线。
+
+当前已包含：
+
+- Papers
+- Projects
+- Datasets
+- Courses
+- Roadmap
+
 ## 接下来
 
 - 扩展到 100 个 AI 项目创意
 - 为 Top 10 项目补充页面设计、数据结构和 Prompt 模板
 - 从项目库里挑一个 idea 做成真实开源产品
+- 扩展具身智能资源库到 100+ 资源
+- 增加 RT-1、RT-2、OpenVLA、Octo 等论文中文导读
 - 持续把 AI 应用开发经验沉淀成可复用的开源内容
 
 ## GitHub Stats
@@ -82,4 +119,4 @@
 
 ---
 
-如果你也在做 AI 应用、开发者工具、AI Agent、MCP、RAG 或开源项目增长，欢迎交流。
+如果你也在做 AI 应用、开发者工具、AI Agent、MCP、RAG、具身智能或机器人学习，欢迎交流。
