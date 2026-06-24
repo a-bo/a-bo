@@ -110,12 +110,18 @@
 - 增加 RT-1、RT-2、OpenVLA、Octo 等论文中文导读
 - 持续把 AI 应用开发经验沉淀成可复用的开源内容
 
-## GitHub Stats
+## Featured Repositories
 
-<p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=a-bo&show_icons=true&hide_border=true&theme=default" alt="a-bo GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=a-bo&layout=compact&hide_border=true&theme=default" alt="a-bo top languages" />
+<p align="center">
+  <a href="https://github.com/a-bo/ai-project-ideas">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=a-bo&repo=ai-project-ideas&hide_border=true" alt="AI Project Ideas" />
+  </a>
+  <a href="https://github.com/a-bo/awesome-embodied-ai-cn">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=a-bo&repo=awesome-embodied-ai-cn&hide_border=true" alt="Awesome Embodied AI CN" />
+  </a>
 </p>
+
+我现在更关注持续维护可复用的开源内容，而不是单纯展示历史提交统计。你可以从上面两个项目开始了解我正在做的方向。
 
 ---
 
