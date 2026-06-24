@@ -112,16 +112,12 @@
 
 ## Featured Repositories
 
-<p align="center">
-  <a href="https://github.com/a-bo/ai-project-ideas">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=a-bo&repo=ai-project-ideas&hide_border=true" alt="AI Project Ideas" />
-  </a>
-  <a href="https://github.com/a-bo/awesome-embodied-ai-cn">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=a-bo&repo=awesome-embodied-ai-cn&hide_border=true" alt="Awesome Embodied AI CN" />
-  </a>
-</p>
+| Project | Direction | Why follow |
+| --- | --- | --- |
+| [AI Project Ideas](https://github.com/a-bo/ai-project-ideas) | AI 应用 / 项目创意 / MVP 设计 | 持续整理可落地的 AI 项目方向，帮助开发者找到能真正开干的开源选题。 |
+| [Awesome Embodied AI CN](https://github.com/a-bo/awesome-embodied-ai-cn) | 具身智能 / 机器人学习 / VLA | 面向中文开发者整理论文、项目、数据集、课程、仿真环境和学习路线。 |
 
-我现在更关注持续维护可复用的开源内容，而不是单纯展示历史提交统计。你可以从上面两个项目开始了解我正在做的方向。
+我现在更关注持续维护可复用的开源内容，而不是单纯展示历史提交统计。你可以从这两个项目开始了解我正在做的方向。
 
 ---
 
