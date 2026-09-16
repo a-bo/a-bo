@@ -21,7 +21,7 @@
 
 [AI Project Ideas](https://github.com/a-bo/ai-project-ideas)：
 
-> 100+ 可落地的 AI 项目创意、MVP 方案和开源实现指南。
+> 当前索引收录 35 个 AI 项目方向，部分已补充详细 MVP 方案；持续完善实现指南。
 
 这个项目不是简单收集“点子”，而是把每个 AI 项目拆成可以直接开干的方案，包括：
 
@@ -100,6 +100,11 @@
 - Datasets
 - Courses
 - Roadmap
+
+## 最近内容
+
+- 2026-09-16：[ROS2 动作闭环实践指南](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/roadmap/ros2-turtlesim-action-lab.md)，补充 turtlesim 环境、失败注入和验收记录；已核验官方源码，尚未运行仿真。
+- 2026-09-16：按 AI Project Ideas 当前索引校正项目数量，区分项目方向与已完成实现。
 
 ## 接下来
 
