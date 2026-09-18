@@ -23,6 +23,8 @@
 
 > 当前索引收录 35 个 AI 项目方向，部分已补充详细 MVP 方案；持续完善实现指南。
 
+最新把 `AI GitHub Profile Maker` 推进到可开工的 MVP 数据契约，补齐事实来源、冲突处理、失败降级与 10 个验收用例；当前仍是设计稿，不是可运行实现。
+
 这个项目不是简单收集“点子”，而是把每个 AI 项目拆成可以直接开干的方案，包括：
 
 - 目标用户
@@ -103,6 +105,7 @@
 
 ## 最近内容
 
+- 2026-09-18：[AI GitHub Profile Maker MVP 数据契约与验收样例](https://github.com/a-bo/ai-project-ideas/blob/main/docs/ai-github-profile-maker-mvp-contract.md)，补充公开 API 边界、证据分层、来源冲突与失败用例；附[中文短帖](https://github.com/a-bo/ai-project-ideas/blob/main/content/2026-09-18-github-profile-maker-fact-layer.md)，尚未实现代码。
 - 2026-09-16：[ROS2 动作闭环实践指南](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/roadmap/ros2-turtlesim-action-lab.md)，补充 turtlesim 环境、失败注入和验收记录；已核验官方源码，尚未运行仿真。
 - 2026-09-16：按 AI Project Ideas 当前索引校正项目数量，区分项目方向与已完成实现。
 
@@ -110,7 +113,7 @@
 
 - 扩展到 100 个 AI 项目创意
 - 为 Top 10 项目补充页面设计、数据结构和 Prompt 模板
-- 从项目库里挑一个 idea 做成真实开源产品
+- 先实现 Profile Maker 的公开数据抓取、Schema 与验收 fixture，再接入模型
 - 扩展具身智能资源库到 100+ 资源
 - 增加 RT-1、RT-2、OpenVLA、Octo 等论文中文导读
 - 持续把 AI 应用开发经验沉淀成可复用的开源内容
