@@ -23,7 +23,7 @@
 
 > 当前索引收录 35 个 AI 项目方向，部分已补充详细 MVP 方案；持续完善实现指南。
 
-最新把 `AI GitHub Profile Maker` 的第一段做成了可运行事实层：公开资料与仓库分页、README 预筛选、冲突检测及 10 个自动化测试已经落地；模型、页面和部署仍未实现。
+最新把 `AI GitHub Profile Maker` 推进到可运行的事实层与生成输出校验边界：公开资料与仓库分页、README 预筛选、冲突检测，以及 A01–A10 的 13 个自动化测试已落地；模型供应商、页面和部署仍未实现。
 
 这个项目不是简单收集“点子”，而是把每个 AI 项目拆成可以直接开干的方案，包括：
 
@@ -105,6 +105,7 @@
 
 ## 最近内容
 
+- 2026-09-23：[Profile Maker 输出 Schema 边界](https://github.com/a-bo/ai-project-ideas/blob/main/examples/github-profile-fact-layer/src/output-validator.mjs) 已覆盖缺字段重试、未知证据拒绝与第二次失败后的确定性降级；附[中文短帖](https://github.com/a-bo/ai-project-ideas/blob/main/content/2026-09-23-profile-maker-schema-boundary.md)。未接入模型 API 或生成 README。
 - 2026-09-21：[GitHub Profile Fact Layer](https://github.com/a-bo/ai-project-ideas/tree/main/examples/github-profile-fact-layer) 已提供零依赖 Node.js 实现，10 个测试通过，并在公开账号只读运行中识别到 `100+ / 35+` 来源冲突；附[中文短帖](https://github.com/a-bo/ai-project-ideas/blob/main/content/2026-09-21-github-profile-maker-fact-layer-code.md)。
 - 2026-09-18：[AI GitHub Profile Maker MVP 数据契约与验收样例](https://github.com/a-bo/ai-project-ideas/blob/main/docs/ai-github-profile-maker-mvp-contract.md)，补充公开 API 边界、证据分层、来源冲突与失败用例；附[中文短帖](https://github.com/a-bo/ai-project-ideas/blob/main/content/2026-09-18-github-profile-maker-fact-layer.md)，尚未实现代码。
 - 2026-09-16：[ROS2 动作闭环实践指南](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/roadmap/ros2-turtlesim-action-lab.md)，补充 turtlesim 环境、失败注入和验收记录；已核验官方源码，尚未运行仿真。
@@ -114,7 +115,7 @@
 
 - 扩展到 100 个 AI 项目创意
 - 为 Top 10 项目补充页面设计、数据结构和 Prompt 模板
-- 为 Profile Maker 事实层增加 JSON Schema，再实现模型输出校验、单次重试和降级结果
+- 为 Profile Maker 接入具体模型适配器，并保留 Schema 校验、单次重试和确定性降级结果
 - 扩展具身智能资源库到 100+ 资源
 - 增加 RT-1、RT-2、OpenVLA、Octo 等论文中文导读
 - 持续把 AI 应用开发经验沉淀成可复用的开源内容
