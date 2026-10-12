@@ -105,6 +105,7 @@
 
 ## 最近内容
 
+- 2026-10-08：[LeRobot 训练前数据审计路线](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/roadmap/lerobot-dataset-audit.md) 已补充浏览器/本地两轮审计、格式版本边界、许可证与训练门禁；附[中文短帖](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/content/2026-10-08-lerobot-dataset-audit.md)。已核验官方文档，未安装 LeRobot、下载数据或运行训练。
 - 2026-09-23：[Profile Maker 输出 Schema 边界](https://github.com/a-bo/ai-project-ideas/blob/main/examples/github-profile-fact-layer/src/output-validator.mjs) 已覆盖缺字段重试、未知证据拒绝与第二次失败后的确定性降级；附[中文短帖](https://github.com/a-bo/ai-project-ideas/blob/main/content/2026-09-23-profile-maker-schema-boundary.md)。未接入模型 API 或生成 README。
 - 2026-09-21：[GitHub Profile Fact Layer](https://github.com/a-bo/ai-project-ideas/tree/main/examples/github-profile-fact-layer) 已提供零依赖 Node.js 实现，10 个测试通过，并在公开账号只读运行中识别到 `100+ / 35+` 来源冲突；附[中文短帖](https://github.com/a-bo/ai-project-ideas/blob/main/content/2026-09-21-github-profile-maker-fact-layer-code.md)。
 - 2026-09-18：[AI GitHub Profile Maker MVP 数据契约与验收样例](https://github.com/a-bo/ai-project-ideas/blob/main/docs/ai-github-profile-maker-mvp-contract.md)，补充公开 API 边界、证据分层、来源冲突与失败用例；附[中文短帖](https://github.com/a-bo/ai-project-ideas/blob/main/content/2026-09-18-github-profile-maker-fact-layer.md)，尚未实现代码。
