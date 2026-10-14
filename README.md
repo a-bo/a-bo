@@ -105,6 +105,7 @@
 
 ## 最近内容
 
+- 2026-10-14：[ROS 2 相机坐标与时间戳检查路线](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/roadmap/ros2-camera-frame-contract.md) 明确感知到执行之间的 `frame_id`、源时间戳、`CameraInfo` 与 TF 查询门禁，并列出四类“拒绝而不执行”的失败样本；附[中文短帖](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/content/2026-10-14-camera-frame-contract.md)。本次仅核验 ROS 官方文档与消息定义，未运行 ROS 2、仿真或真机。
 - 2026-10-08：[LeRobot 训练前数据审计路线](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/roadmap/lerobot-dataset-audit.md) 已补充浏览器/本地两轮审计、格式版本边界、许可证与训练门禁；附[中文短帖](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/content/2026-10-08-lerobot-dataset-audit.md)。已核验官方文档，未安装 LeRobot、下载数据或运行训练。
 - 2026-09-23：[Profile Maker 输出 Schema 边界](https://github.com/a-bo/ai-project-ideas/blob/main/examples/github-profile-fact-layer/src/output-validator.mjs) 已覆盖缺字段重试、未知证据拒绝与第二次失败后的确定性降级；附[中文短帖](https://github.com/a-bo/ai-project-ideas/blob/main/content/2026-09-23-profile-maker-schema-boundary.md)。未接入模型 API 或生成 README。
 - 2026-09-21：[GitHub Profile Fact Layer](https://github.com/a-bo/ai-project-ideas/tree/main/examples/github-profile-fact-layer) 已提供零依赖 Node.js 实现，10 个测试通过，并在公开账号只读运行中识别到 `100+ / 35+` 来源冲突；附[中文短帖](https://github.com/a-bo/ai-project-ideas/blob/main/content/2026-09-21-github-profile-maker-fact-layer-code.md)。
