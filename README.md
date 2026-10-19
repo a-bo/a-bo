@@ -23,7 +23,7 @@
 
 > 当前索引收录 35 个 AI 项目方向，部分已补充详细 MVP 方案；持续完善实现指南。
 
-最新把 `AI GitHub Profile Maker` 推进到可运行的事实层与生成输出校验边界：公开资料与仓库分页、README 预筛选、冲突检测，以及 A01–A10 的 13 个自动化测试已落地；模型供应商、页面和部署仍未实现。
+最新把 `AI GitHub Profile Maker` 推进到可运行的事实层、生成输出校验与确定性 Markdown 导出边界：公开资料与仓库分页、README 预筛选、冲突检测，以及 A01–A10 与渲染边界的 17 个自动化测试已落地；模型供应商、页面和部署仍未实现。
 
 这个项目不是简单收集“点子”，而是把每个 AI 项目拆成可以直接开干的方案，包括：
 
@@ -105,6 +105,7 @@
 
 ## 最近内容
 
+- 2026-10-19：[Profile Markdown 渲染与发布前检查](https://github.com/a-bo/ai-project-ideas/blob/main/examples/github-profile-fact-layer/src/profile-renderer.mjs) 已覆盖数量冲突描述省略、Pinned 未核验声明和未知证据拒绝；17 个测试通过。附[中文短帖](https://github.com/a-bo/ai-project-ideas/blob/main/content/2026-09-28-profile-maker-markdown-review.md)，未接入真实模型或自动写入 GitHub。
 - 2026-10-16：[ROS 2 感知—执行门禁 JSONL 证据模板](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/roadmap/ros2-camera-frame-evidence-template.md) 为候选点、带源时间的 TF 查询与“不发运动”的四类拒绝路径提供可审计记录格式；附[中文短帖](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/content/2026-10-16-camera-gate-evidence.md)。文档使用合成样例与离线检查，未运行 ROS 2、仿真或硬件。
 - 2026-10-14：[ROS 2 相机坐标与时间戳检查路线](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/roadmap/ros2-camera-frame-contract.md) 明确感知到执行之间的 `frame_id`、源时间戳、`CameraInfo` 与 TF 查询门禁，并列出四类“拒绝而不执行”的失败样本；附[中文短帖](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/content/2026-10-14-camera-frame-contract.md)。本次仅核验 ROS 官方文档与消息定义，未运行 ROS 2、仿真或真机。
 - 2026-10-08：[LeRobot 训练前数据审计路线](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/roadmap/lerobot-dataset-audit.md) 已补充浏览器/本地两轮审计、格式版本边界、许可证与训练门禁；附[中文短帖](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/content/2026-10-08-lerobot-dataset-audit.md)。已核验官方文档，未安装 LeRobot、下载数据或运行训练。
@@ -118,7 +119,7 @@
 
 - 扩展到 100 个 AI 项目创意
 - 为 Top 10 项目补充页面设计、数据结构和 Prompt 模板
-- 为 Profile Maker 接入具体模型适配器，并保留 Schema 校验、单次重试和确定性降级结果
+- 为 Profile Maker 接入具体模型适配器，并保留 Schema 校验、单次重试、确定性降级和发布前 review
 - 扩展具身智能资源库到 100+ 资源
 - 增加 RT-1、RT-2、OpenVLA、Octo 等论文中文导读
 - 持续把 AI 应用开发经验沉淀成可复用的开源内容
