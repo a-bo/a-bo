@@ -105,6 +105,7 @@
 
 ## 最近内容
 
+- 2026-10-21：[Isaac Lab 无界面训练前检查路线](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/roadmap/isaac-lab-headless-preflight.md) 把 release / 镜像、GPU、容器挂载权限、headless 与视频模式、日志和 checkpoint 拆成 E0–E5 证据门禁；附[中文短帖](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/content/2026-10-21-isaac-lab-headless-preflight.md)。本次仅核验官方资料，未安装或训练 Isaac Lab。
 - 2026-10-19：[Profile Markdown 渲染与发布前检查](https://github.com/a-bo/ai-project-ideas/blob/main/examples/github-profile-fact-layer/src/profile-renderer.mjs) 已覆盖数量冲突描述省略、Pinned 未核验声明和未知证据拒绝；17 个测试通过。附[中文短帖](https://github.com/a-bo/ai-project-ideas/blob/main/content/2026-09-28-profile-maker-markdown-review.md)，未接入真实模型或自动写入 GitHub。
 - 2026-10-16：[ROS 2 感知—执行门禁 JSONL 证据模板](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/roadmap/ros2-camera-frame-evidence-template.md) 为候选点、带源时间的 TF 查询与“不发运动”的四类拒绝路径提供可审计记录格式；附[中文短帖](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/content/2026-10-16-camera-gate-evidence.md)。文档使用合成样例与离线检查，未运行 ROS 2、仿真或硬件。
 - 2026-10-14：[ROS 2 相机坐标与时间戳检查路线](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/roadmap/ros2-camera-frame-contract.md) 明确感知到执行之间的 `frame_id`、源时间戳、`CameraInfo` 与 TF 查询门禁，并列出四类“拒绝而不执行”的失败样本；附[中文短帖](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/content/2026-10-14-camera-frame-contract.md)。本次仅核验 ROS 官方文档与消息定义，未运行 ROS 2、仿真或真机。
