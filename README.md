@@ -105,6 +105,7 @@
 
 ## 最近内容
 
+- 2026-10-26：[AI Dependency Upgrade Navigator](https://github.com/a-bo/ai-project-ideas/blob/main/ideas/ai-dependency-upgrade-navigator.md) 新增依赖升级的只读证据、未知项、验证与回滚方案；附[中文短帖](https://github.com/a-bo/ai-project-ideas/blob/main/content/2026-10-26-dependency-upgrade-navigator.md)。这是设计与实现路线，未执行升级、测试或 CI。
 - 2026-10-23：[Isaac Lab 运行记录校验器](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/roadmap/isaac-lab-run-record-validator.md) 已提供 E0–E5 结构、零依赖 Node.js 离线校验器与合成阻塞样例；附[中文短帖](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/content/2026-10-23-isaac-lab-run-record.md)。本次只验证记录格式，未运行 Isaac Lab、容器、仿真或训练。
 - 2026-10-21：[Isaac Lab 无界面训练前检查路线](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/roadmap/isaac-lab-headless-preflight.md) 把 release / 镜像、GPU、容器挂载权限、headless 与视频模式、日志和 checkpoint 拆成 E0–E5 证据门禁；附[中文短帖](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/content/2026-10-21-isaac-lab-headless-preflight.md)。本次仅核验官方资料，未安装或训练 Isaac Lab。
 - 2026-10-19：[Profile Markdown 渲染与发布前检查](https://github.com/a-bo/ai-project-ideas/blob/main/examples/github-profile-fact-layer/src/profile-renderer.mjs) 已覆盖数量冲突描述省略、Pinned 未核验声明和未知证据拒绝；17 个测试通过。附[中文短帖](https://github.com/a-bo/ai-project-ideas/blob/main/content/2026-09-28-profile-maker-markdown-review.md)，未接入真实模型或自动写入 GitHub。
