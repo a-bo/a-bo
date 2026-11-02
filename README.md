@@ -105,6 +105,7 @@
 
 ## 最近内容
 
+- 2026-11-02：[LeRobot 真机策略零动作验收路线](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/roadmap/lerobot-policy-zero-action-gate.md) 把首次策略部署拆为 R0–R5：现场、身份映射、标定、静态 observation、策略匹配与受控首动；附[中文短帖](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/content/2026-11-02-lerobot-zero-action-gate.md)。本次只核验官方资料，未安装 LeRobot、连接硬件、执行 rollout、运行仿真或控制机器人。
 - 2026-10-30：[Dependency Upgrade Navigator 升级证据记录校验器](https://github.com/a-bo/ai-project-ideas/blob/main/docs/dependency-upgrade-navigator-record-validator.md) 已提供零依赖 Node.js 记录结构校验、合成 fixture 和 10 个离线验收测试；附[中文短帖](https://github.com/a-bo/ai-project-ideas/blob/main/content/2026-10-30-dependency-evidence-validator.md)。它未扫描、安装、更新或测试任何真实依赖，测试通过仅表示记录结构符合契约。
 - 2026-10-26：[AI Dependency Upgrade Navigator](https://github.com/a-bo/ai-project-ideas/blob/main/ideas/ai-dependency-upgrade-navigator.md) 新增依赖升级的只读证据、未知项、验证与回滚方案；附[中文短帖](https://github.com/a-bo/ai-project-ideas/blob/main/content/2026-10-26-dependency-upgrade-navigator.md)。这是设计与实现路线，未执行升级、测试或 CI。
 - 2026-10-23：[Isaac Lab 运行记录校验器](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/roadmap/isaac-lab-run-record-validator.md) 已提供 E0–E5 结构、零依赖 Node.js 离线校验器与合成阻塞样例；附[中文短帖](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/content/2026-10-23-isaac-lab-run-record.md)。本次只验证记录格式，未运行 Isaac Lab、容器、仿真或训练。
