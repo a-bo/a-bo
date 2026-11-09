@@ -105,6 +105,7 @@
 
 ## 最近内容
 
+- 2026-11-09：[AI API Contract Drift Reviewer](https://github.com/a-bo/ai-project-ideas/blob/main/ideas/ai-api-contract-drift-reviewer.md) 新增完整 MVP 方案，把操作者导入的 API 契约变化、待确认影响和覆盖未知项分开，并让每条观察回链到来源指针与证据 ID；附[中文短帖](https://github.com/a-bo/ai-project-ideas/blob/main/content/2026-11-09-api-contract-drift-reviewer.md)。本次为设计文档，未导入真实契约、扫描仓库、运行 API、生成代码或验证兼容性。
 - 2026-11-06：[LeRobot 人机接管纠错记录路线](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/roadmap/lerobot-hil-correction-record.md) 区分 corrections-only 与连续记录，并用 S0–S6、segment 化记录、停止条件和训练前审查约束 policy → human 的交接；附[中文短帖](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/content/2026-11-06-lerobot-hil-correction-record.md)。本次仅核验官方资料，未安装 LeRobot、连接硬件、执行 rollout、采集数据或训练。
 - 2026-11-04：[AI CI Failure Evidence Navigator](https://github.com/a-bo/ai-project-ideas/blob/main/ideas/ai-ci-failure-evidence-navigator.md) 新增 CI 故障证据、未知项和人工检查单的完整 MVP 方案；附[中文短帖](https://github.com/a-bo/ai-project-ideas/blob/main/content/2026-11-04-ci-failure-evidence-navigator.md)。本次为设计文档，未连接 GitHub、导入真实日志、运行或重跑 CI、修改代码或验证修复。
 - 2026-11-02：[LeRobot 真机策略零动作验收路线](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/roadmap/lerobot-policy-zero-action-gate.md) 把首次策略部署拆为 R0–R5：现场、身份映射、标定、静态 observation、策略匹配与受控首动；附[中文短帖](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/content/2026-11-02-lerobot-zero-action-gate.md)。本次只核验官方资料，未安装 LeRobot、连接硬件、执行 rollout、运行仿真或控制机器人。
