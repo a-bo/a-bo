@@ -105,6 +105,8 @@
 
 ## 最近内容
 
+- 2026-11-13：[LeRobot HIL 纠错记录校验器](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/roadmap/lerobot-hil-correction-record-validator.md) 已提供零依赖 Node.js 离线校验、完全合成的 `aborted / corrections_only` 样例与 10 个验收测试，拒绝缺字段、断裂时间线、无暂停 trigger、不完整人工纠错记录与常见 token 形态；附[中文短帖](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/content/2026-11-13-lerobot-hil-record-validator.md)。仅执行合成 fixture 校验，未安装 LeRobot、连接硬件、执行 rollout、暂停/接管、采集数据、训练或评估。
+
 - 2026-11-11：[CI Failure Evidence Navigator 离线校验器](https://github.com/a-bo/ai-project-ideas/blob/main/docs/ci-failure-evidence-validator.md) 已提供合成事件、零依赖 Node.js 校验与 10 个验收测试，拒绝跨运行混入、截断证据的根因断言、疑似 token、无效 SHA 和自动远程动作；附[中文短帖](https://github.com/a-bo/ai-project-ideas/blob/main/content/2026-11-11-ci-failure-evidence-validator.md)。仅执行合成 fixture 校验，未导入真实 CI 日志、运行或重跑 CI，亦未定位或修复真实故障。
 
 - 2026-11-09：[AI API Contract Drift Reviewer](https://github.com/a-bo/ai-project-ideas/blob/main/ideas/ai-api-contract-drift-reviewer.md) 新增完整 MVP 方案，把操作者导入的 API 契约变化、待确认影响和覆盖未知项分开，并让每条观察回链到来源指针与证据 ID；附[中文短帖](https://github.com/a-bo/ai-project-ideas/blob/main/content/2026-11-09-api-contract-drift-reviewer.md)。本次为设计文档，未导入真实契约、扫描仓库、运行 API、生成代码或验证兼容性。
