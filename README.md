@@ -105,6 +105,8 @@
 
 ## 最近内容
 
+- 2026-11-20：[ManiSkill 首个 episode 复查路线](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/roadmap/maniskill-first-episode-record.md) 新增 E0–E4 记录门禁，要求先固定任务卡、版本/资产、观测与控制模式、reset seed、两个结束信号和证据，再比较策略；附[中文短帖](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/content/2026-11-20-maniskill-first-episode.md)。本次仅核验官方资料，未安装 ManiSkill、运行仿真、训练策略、生成视频或控制硬件。
+
 - 2026-11-18：[AI Feature Flag Rollout Reviewer](https://github.com/a-bo/ai-project-ideas/blob/main/ideas/ai-feature-flag-rollout-reviewer.md) 新增完整 MVP 方案，将操作者导出的开关快照、灰度阶段和摘要观测分为可回查事实、阻断项、待确认问题与人工动作；附[中文短帖](https://github.com/a-bo/ai-project-ideas/blob/main/content/2026-11-18-feature-flag-rollout-reviewer.md)。本次仅完成设计，未读取或修改远程开关、监控或生产控制面，未运行灰度/回滚或宣告发布成功。
 
 - 2026-11-13：[LeRobot HIL 纠错记录校验器](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/roadmap/lerobot-hil-correction-record-validator.md) 已提供零依赖 Node.js 离线校验、完全合成的 `aborted / corrections_only` 样例与 10 个验收测试，拒绝缺字段、断裂时间线、无暂停 trigger、不完整人工纠错记录与常见 token 形态；附[中文短帖](https://github.com/a-bo/awesome-embodied-ai-cn/blob/main/content/2026-11-13-lerobot-hil-record-validator.md)。仅执行合成 fixture 校验，未安装 LeRobot、连接硬件、执行 rollout、暂停/接管、采集数据、训练或评估。
